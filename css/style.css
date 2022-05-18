@@ -721,6 +721,7 @@ h6 {
 @media screen and (max-width: 768px) {
 	#qbootstrap-couple .amp-center {
 		font-size: 40px;
+		margin: 50% 0;
 	}
 }
 #qbootstrap-couple .amp-center .colored .svg {
@@ -826,6 +827,11 @@ h6 {
 	content: "";
 	background: #fef6f8;
 	z-index: -1;
+}
+@media screen and (max-width: 768px) {
+	.couple.bride {
+		margin-top: 50%;
+	}
 }
 .couple img {
 	width: 300px;
@@ -1215,6 +1221,9 @@ h6 {
 	.groom-men .border {
 		margin: 0 auto;
 	}
+}
+.groom-men .img-responsive {
+	border-radius: 1rem;
 }
 .groom-men h3 {
 	font-family: "Source Sans Pro", cursive;

@@ -70,7 +70,7 @@ $(function() {
 	};
 
     $("#open-invitation").click(() => {
-		document.getElementById("audio").play()
+		// document.getElementById("audio").play()
 		$("#invitation-content").removeClass("hidden")
         $(".animate-box-hidden").addClass("animate-box")
 		parallax()
