@@ -1153,6 +1153,9 @@ h6 {
 #qbootstrap-testimonials .box-testimony blockquote p {
 	font-style: italic;
 }
+#qbootstrap-testimonials .box-testimony blockquote p strong {
+	font-weight: bold;
+}
 #qbootstrap-testimonials .box-testimony .author {
 	line-height: 20px;
 	color: white;
